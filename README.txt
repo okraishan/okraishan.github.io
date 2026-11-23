@@ -14,3 +14,8 @@ git push
 Repo Link: https://github.com/okraishan/okraishan.github.io
 Live Link: https://okraishan.github.io/
 
+
+https://www.behance.net/
+https://www.pinterest.com/
+https://dribbble.com/
+https://www.figma.com/community/

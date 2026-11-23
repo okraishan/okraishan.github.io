@@ -1,0 +1,103 @@
+/* :root for variables */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Web page sections */
+/* HERO */
+.hero {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+
+/* ABOUT */
+.about {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* CONTACT */
+.contact {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* CSS ANIMATIONS */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* CSS MEDIA QUERIES */
+@media (max-width: 768px) {
+  .hero, .about, .contact {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero, .about, .contact {
+    padding: 2rem 1rem;
+  }
+}
